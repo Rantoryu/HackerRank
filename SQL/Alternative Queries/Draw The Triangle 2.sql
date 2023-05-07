@@ -1,0 +1,2 @@
+SET @star = 0;
+SELECT REPEAT('* ', @star := @star +1) FROM INFORMATION_SCHEMA.TABLES LIMIT 20;
